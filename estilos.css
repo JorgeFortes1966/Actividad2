@@ -1,0 +1,140 @@
+*{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+  }
+  .navbar-brand img{
+    width: 90px;
+  }
+  .carousel-caption{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 2, 2, 0.5);
+  }
+  .contenedor-conf{
+  align-items: center;
+  height: 100%;
+  } 
+  .parrafoUno{
+   padding-top: 8rem;
+    text-align: end;
+    width: 70%;
+    padding-right: 6rem;
+  }
+  
+  .container-fluid{
+    margin-right:3rem;
+  }
+  .honolulu img{
+    max-width: 100%;
+  }
+  .btn-comprar{
+      background-color: #29a744;
+      margin-left: 20px;
+      border: none;
+  }
+  .btn-comprar:hover{
+    scale: 1.2;
+    background-color: #29a744;
+  }
+  .btn-orador:hover{
+    scale: 1.2;
+  }
+  .btn-enviar{
+    background-color: #96c93e;
+  }
+  .btn-enviar:hover{
+    background-color: #96c93e;
+  }
+  .card{
+    width: 25rem;
+  }
+  .formulario .enlace{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px black dashed;
+  }
+  .footer{
+    background-color: #1e516e;
+    height: 90px;
+    }
+  
+  @media (max-width: 992px) {
+  .navbar{
+    padding-right: 0;
+  }
+  
+  .container-fluid{
+    margin-right: 2rem ;
+    text-align: center;
+    
+  } 
+  .carousel-caption{
+    padding-top: 0;
+  } 
+  .parrafoUno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-left: 0px !important;
+    margin-top: 0;
+    padding-right:0;
+    padding-top: 0;
+  }
+  .btn-orador{ 
+    margin-left: 20px;     
+    margin-bottom: 10px;
+  }
+  .carousel-caption{
+    left: 0;
+    right: 0;
+  }
+  .carousel{
+    padding-top: 4.5rem;
+    z-index: 1;
+  } 
+  .carousel-item img{
+    height: 100vh;
+    object-fit:cover;
+  } 
+  .footer{
+    height: 200px;   
+  }  
+  .footer-lista{
+    flex-direction: column;
+  } 
+  
+  .collapse{
+    width: 100%;
+    background-color:#212529;
+    z-index: 1;
+    top: 2vh;
+    left: 0;
+  } 
+  .parrafoDos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  .inputs{
+    width: 100%;
+    flex-direction: column;
+  }
+  .formulario{
+    margin: 0 auto;
+    width: 100%;
+  }
+  }
